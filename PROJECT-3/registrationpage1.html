@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>registration page</title>
+        <link rel="stylesheet" href="style.css">
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+                <h1 class="title">LET'S FOOTBALL</h1>
+                <ul class="nav-links">
+                
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACTUS</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="#">REGISTRATION</a></li>
+                    <li><a href="createaccount.html">CREATE-ACCOUNT</a></li>
+                </ul>
+        </div>
+         <div class="box">
+            <div class="h3">
+                <h3>REGISTARTION</h3>
+            </div>
+            Name: <input type="text" name="uname" placeholder="Enter the name"> <br>
+            Phonenumber:<input type="number" name="unum" placeholder="Enter the number"> <br>
+            Address:<input type="text" name="uadd" placeholder="Address"> <br>
+            <div id="radio">
+            Hotel type:  <br><input type="radio" name="uhotel" value="E">Economic<br>
+            <input type="radio" name="uhotel" value="F">First class<br>
+            <input type="radio" name="uhotel" value="P">Premium<br>
+            <br>
+            </div>
+            Transportation:<br>
+            <select name="strans">
+                <option value="car">Car</option>
+                <option value="bus">Bus</option>
+                <option value="train">Train</option>
+                <option value="plane">plane</option>
+            </select>
+            Number of people:<input type="number" name="persons"  min="0" max="20" step="2" value="2"><br>
+            <form action="login.html">
+                <input type="submit">
+            </form>
+        </div>
+
+<p>
+            
+    </body>
+</html>

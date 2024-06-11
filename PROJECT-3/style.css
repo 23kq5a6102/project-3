@@ -1,0 +1,68 @@
+body{
+    background-image: url(ronaldo7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    margin:0 ;
+    padding: 0%;
+}
+    
+.navbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: Arial;
+    border-radius: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    font-family: Arial;
+}
+.box{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-40%);
+    right: 150px;
+    font-family: Arial;
+    border-color: #fff;
+    border: 2px;
+   
+}
+#radio{
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.9vw;
+    font-family: Arial;
+    color:white;
+    font: bold;
+}
